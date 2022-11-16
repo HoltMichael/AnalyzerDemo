@@ -9,7 +9,7 @@ public class NameController { //sfdc:source18
     @AuraEnabled
     public static void setName(String name, String id) { //sfdc:source11
         final Id objId = (Id)id;
-
+        //Test
         if (Account.SObjectType.getDescribe().isUpdateable() 
             && Schema.SObjectType.Account.fields.Name.isUpdateable()) {
             Account acc = [SELECT Name, Id FROM Account WHERE Id=:obj_id][0]; //sfdc:source5
