@@ -1,0 +1,1234 @@
+<testsuites>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls" tests="9" errors="9">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 1 Apex classes should declare a sharing model if DML or SOQL/SOSL is used" type="3">
+3: Apex classes should declare a sharing model if DML or SOQL/SOSL is used
+Category: Security - ApexSharingViolations
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexsharingviolations
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 5
+Column: 26
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 10 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 10
+Column: 24
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 11 Variable &#39;objId&#39; defined but not used" type="5">
+5: Variable &#39;objId&#39; defined but not used
+Category: Best Practices - UnusedLocalVariable
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 11
+Column: 18
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_bestpractices.html#unusedlocalvariable
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 22 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 22
+Column: 24
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 27 Avoid DML statements inside loops" type="3">
+3: Avoid DML statements inside loops
+Category: Performance - AvoidDmlStatementsInLoops
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 27
+Column: 13
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_performance.html#avoiddmlstatementsinloops
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 27 Avoid operations in loops that may hit governor limits" type="3">
+3: Avoid operations in loops that may hit governor limits
+Category: Performance - OperationWithLimitsInLoop
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 27
+Column: 13
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_performance.html#operationwithlimitsinloop
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls: 28 Avoid operations in loops that may hit governor limits" type="3">
+3: Avoid operations in loops that may hit governor limits
+Category: Performance - OperationWithLimitsInLoop
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/NameController.cls
+Line: 28
+Column: 22
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_performance.html#operationwithlimitsinloop
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls: 1 Avoid using global modifier" type="3">
+3: Avoid using global modifier
+Category: Best Practices - AvoidGlobalModifier
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls
+Line: 1
+Column: 30
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_bestpractices.html#avoidglobalmodifier
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls
+Line: 1
+Column: 30
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls
+Line: 3
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls: 7 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SafeNoSharing.cls
+Line: 7
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls" tests="7" errors="7">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 4 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 4
+Column: 39
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 11 Validate CRUD permission before SOQL/DML operation" type="3">
+3: Validate CRUD permission before SOQL/DML operation
+Category: Security - ApexCRUDViolation
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 11
+Column: 34
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 21 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 21
+Column: 36
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 22 Validate CRUD permission before SOQL/DML operation" type="3">
+3: Validate CRUD permission before SOQL/DML operation
+Category: Security - ApexCRUDViolation
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 22
+Column: 33
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 28 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 28
+Column: 33
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls: 29 Validate CRUD permission before SOQL/DML operation" type="3">
+3: Validate CRUD permission before SOQL/DML operation
+Category: Security - ApexCRUDViolation
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SampleController.cls
+Line: 29
+Column: 30
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls" tests="8" errors="8">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 1 Avoid using global modifier" type="3">
+3: Avoid using global modifier
+Category: Best Practices - AvoidGlobalModifier
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_bestpractices.html#avoidglobalmodifier
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 2 Avoid empty block statements." type="3">
+3: Avoid empty block statements.
+Category: Error Prone - EmptyStatementBlock
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 2
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_errorprone.html#emptystatementblock
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 2 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 2
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 6 Apex classes should declare a sharing model if DML or SOQL/SOSL is used" type="3">
+3: Apex classes should declare a sharing model if DML or SOQL/SOSL is used
+Category: Security - ApexSharingViolations
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 6
+Column: 18
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexsharingviolations
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 6 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 6
+Column: 18
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 9 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 9
+Column: 16
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls: 13 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SharingInnerClass.cls
+Line: 13
+Column: 24
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls" tests="7" errors="7">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 3
+Column: 32
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 4 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 4
+Column: 32
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 5
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 8 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 8
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 15 Avoid empty block statements." type="3">
+3: Avoid empty block statements.
+Category: Error Prone - EmptyStatementBlock
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 15
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_errorprone.html#emptystatementblock
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls: 15 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/SimpleAccount.cls
+Line: 15
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls" tests="6" errors="6">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 1 Avoid using global modifier" type="3">
+3: Avoid using global modifier
+Category: Best Practices - AvoidGlobalModifier
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_bestpractices.html#avoidglobalmodifier
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 5
+Column: 22
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 9 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 9
+Column: 22
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 13 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 13
+Column: 13
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls: 19 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeGlobal.cls
+Line: 19
+Column: 15
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls" tests="5" errors="5">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls: 2 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls
+Line: 2
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls: 7 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls
+Line: 7
+Column: 22
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls: 12 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls
+Line: 12
+Column: 22
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls: 17 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls
+Line: 17
+Column: 13
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls: 23 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeNamespaceAccessible.cls
+Line: 23
+Column: 15
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls: 1 Apex classes should declare a sharing model if DML or SOQL/SOSL is used" type="3">
+3: Apex classes should declare a sharing model if DML or SOQL/SOSL is used
+Category: Security - ApexSharingViolations
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexsharingviolations
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls
+Line: 3
+Column: 26
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls: 4 Avoid untrusted/unescaped variables in DML query" type="3">
+3: Avoid untrusted/unescaped variables in DML query
+Category: Security - ApexSOQLInjection
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeSOQL.cls
+Line: 4
+Column: 95
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexsoqlinjection
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls" tests="2" errors="2">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls
+Line: 1
+Column: 14
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/UnsafeWebService.cls
+Line: 3
+Column: 26
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls" tests="6" errors="6">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 3
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 5 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 5
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 8 Hardcoding Ids is bound to break when changing environments." type="3">
+3: Hardcoding Ids is bound to break when changing environments.
+Category: Error Prone - AvoidHardcodingId
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 8
+Column: 18
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_errorprone.html#avoidhardcodingid
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 10 Apex classes should escape/sanitize Strings obtained from URL parameters" type="3">
+3: Apex classes should escape/sanitize Strings obtained from URL parameters
+Category: Security - ApexXSSFromURLParam
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 10
+Column: 20
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_security.html#apexxssfromurlparam
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls: 16 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT.cls
+Line: 16
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls
+Line: 1
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls: 2 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls
+Line: 2
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls: 4 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls
+Line: 4
+Column: 12
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls: 11 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/classes/testSELECT2.cls
+Line: 11
+Column: 19
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/components/child1.component" tests="1" errors="1">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/components/child1.component">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/components/child1.component: 10 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/components/child1.component
+Line: 10
+Column: 7
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page" tests="7" errors="7">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 5 Dynamic EL content in style tag should be appropriately encoded" type="3">
+3: Dynamic EL content in style tag should be appropriately encoded
+Category: Security - VfHtmlStyleTagXss
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 5
+Column: 6
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfhtmlstyletagxss
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 7 Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate" type="3">
+3: Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate
+Category: Security - VfHtmlStyleTagXss
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 7
+Column: 20
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfhtmlstyletagxss
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 8 Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate" type="3">
+3: Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate
+Category: Security - VfHtmlStyleTagXss
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 8
+Column: 20
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfhtmlstyletagxss
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 9 Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate" type="3">
+3: Dynamic EL content within URL in style tag should be URLENCODED or JSINHTMLENCODED as appropriate
+Category: Security - VfHtmlStyleTagXss
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 9
+Column: 20
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfhtmlstyletagxss
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 15 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 15
+Column: 56
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 19 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 19
+Column: 15
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page: 21 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testEncoding.page
+Line: 21
+Column: 15
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page" tests="2" errors="2">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page: 6 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page
+Line: 6
+Column: 26
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page: 20 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testObjStandard.page
+Line: 20
+Column: 16
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT.page" tests="1" errors="1">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT.page: 2 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT.page
+Line: 2
+Column: 26
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT2.page" tests="1" errors="1">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT2.page">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT2.page: 2 Avoid unescaped user controlled content in EL" type="3">
+3: Avoid unescaped user controlled content in EL
+Category: Security - VfUnescapeEl
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/pages/testSELECT2.page
+Line: 2
+Column: 27
+URL: https://pmd.github.io/pmd-6.50.0/pmd_rules_vf_security.html#vfunescapeel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/noLeadingUpperCase.js" tests="1" errors="1">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/noLeadingUpperCase.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/noLeadingUpperCase.js: 3 &#39;Foo&#39; is defined but never used." type="2">
+2: &#39;Foo&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/noLeadingUpperCase.js
+Line: 3
+Column: 7
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js" tests="3" errors="3">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js: 10 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js
+Line: 10
+Column: 9
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js: 20 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js
+Line: 20
+Column: 9
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js: 30 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/AccountRepeat/AccountRepeatController.js
+Line: 30
+Column: 9
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js" tests="3" errors="3">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js: 2 &#39;component&#39; is defined but never used." type="2">
+2: &#39;component&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js
+Line: 2
+Column: 22
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js: 2 &#39;event&#39; is defined but never used." type="2">
+2: &#39;event&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js
+Line: 2
+Column: 33
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js: 2 &#39;helper&#39; is defined but never used." type="2">
+2: &#39;helper&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/CSPattr/CSPattrController.js
+Line: 2
+Column: 40
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js" tests="6" errors="6">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 2 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 2
+Column: 26
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 2 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 2
+Column: 31
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 14 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 14
+Column: 9
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 16 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 16
+Column: 31
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 16 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 16
+Column: 36
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js: 29 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ControllerDemo/ControllerDemoController.js
+Line: 29
+Column: 9
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js: 2 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js
+Line: 2
+Column: 37
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js: 3 &#39;evt&#39; is already defined." type="2">
+2: &#39;evt&#39; is already defined.
+Category: suggestion - no-redeclare
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js
+Line: 3
+Column: 13
+URL: https://eslint.org/docs/rules/no-redeclare
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js: 8 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js
+Line: 8
+Column: 39
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js: 9 &#39;evt&#39; is already defined." type="2">
+2: &#39;evt&#39; is already defined.
+Category: suggestion - no-redeclare
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/ChildComponent/ChildComponentController.js
+Line: 9
+Column: 13
+URL: https://eslint.org/docs/rules/no-redeclare
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js" tests="13" errors="13">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 2 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 2
+Column: 27
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 2 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 2
+Column: 32
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 5 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 5
+Column: 34
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 5 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 5
+Column: 39
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 8 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 8
+Column: 32
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 8 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 8
+Column: 36
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 12 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 12
+Column: 43
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 12 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 12
+Column: 47
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 18 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 18
+Column: 43
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 18 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 18
+Column: 47
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 25 &#39;evt&#39; is defined but never used." type="2">
+2: &#39;evt&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 25
+Column: 37
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 25 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 25
+Column: 41
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js: 29 &#39;hlp&#39; is defined but never used." type="2">
+2: &#39;hlp&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/DOMXSS/DOMXSSController.js
+Line: 29
+Column: 37
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js" tests="3" errors="3">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js: 2 &#39;component&#39; is defined but never used." type="2">
+2: &#39;component&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js
+Line: 2
+Column: 22
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js: 2 &#39;event&#39; is defined but never used." type="2">
+2: &#39;event&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js
+Line: 2
+Column: 33
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js: 2 &#39;helper&#39; is defined but never used." type="2">
+2: &#39;helper&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTest2/VulnTest2Controller.js
+Line: 2
+Column: 40
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js" tests="3" errors="3">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js: 2 &#39;event&#39; is defined but never used." type="2">
+2: &#39;event&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js
+Line: 2
+Column: 33
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js: 2 &#39;helper&#39; is defined but never used." type="2">
+2: &#39;helper&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js
+Line: 2
+Column: 40
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js: 11 Mixed spaces and tabs." type="2">
+2: Mixed spaces and tabs.
+Category: layout - no-mixed-spaces-and-tabs
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/VulnTestApp/VulnTestAppController.js
+Line: 11
+Column: 1
+URL: https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js: 2 &#39;component&#39; is defined but never used." type="2">
+2: &#39;component&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js
+Line: 2
+Column: 22
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js: 2 &#39;event&#39; is defined but never used." type="2">
+2: &#39;event&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js
+Line: 2
+Column: 33
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js: 2 &#39;helper&#39; is defined but never used." type="2">
+2: &#39;helper&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js
+Line: 2
+Column: 40
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js: 3 &#39;$A&#39; is not defined." type="2">
+2: &#39;$A&#39; is not defined.
+Category: problem - no-undef
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/doc_write/doc_writeController.js
+Line: 3
+Column: 19
+URL: https://eslint.org/docs/rules/no-undef
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js" tests="4" errors="4">
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js: 2 &#39;event&#39; is defined but never used." type="2">
+2: &#39;event&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js
+Line: 2
+Column: 32
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js: 2 &#39;helper&#39; is defined but never used." type="2">
+2: &#39;helper&#39; is defined but never used.
+Category: problem - no-unused-vars
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js
+Line: 2
+Column: 39
+URL: https://eslint.org/docs/rules/no-unused-vars
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js: 17 Unexpected &#39;debugger&#39; statement." type="2">
+2: Unexpected &#39;debugger&#39; statement.
+Category: problem - no-debugger
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js
+Line: 17
+Column: 9
+URL: https://eslint.org/docs/rules/no-debugger
+</failure>
+</testcase>
+<testcase name="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js">
+<failure message="/Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js: 20 Empty block statement." type="2">
+2: Empty block statement.
+Category: suggestion - no-empty
+File: /Users/michael.holt/Documents/Dev Projects/DemoApp/src/aura/dom_parser/dom_parserController.js
+Line: 20
+Column: 23
+URL: https://eslint.org/docs/rules/no-empty
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
